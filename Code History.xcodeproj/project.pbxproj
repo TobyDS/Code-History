@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B4AAA9A2C2F3089003897D2 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4AAA992C2F3089003897D2 /* Question.swift */; };
+		0B4AAA9E2C2F31FC003897D2 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4AAA9D2C2F31FC003897D2 /* ChoiceTextView.swift */; };
 		0B87D1E52C2B3872003F055E /* Code_HistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B87D1E42C2B3872003F055E /* Code_HistoryApp.swift */; };
 		0B87D1E72C2B3872003F055E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B87D1E62C2B3872003F055E /* ContentView.swift */; };
 		0B87D1E92C2B3873003F055E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B87D1E82C2B3873003F055E /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B4AAA992C2F3089003897D2 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		0B4AAA9D2C2F31FC003897D2 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 		0B87D1E12C2B3872003F055E /* Code History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B87D1E42C2B3872003F055E /* Code_HistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_HistoryApp.swift; sourceTree = "<group>"; };
 		0B87D1E62C2B3872003F055E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				0B87D1E42C2B3872003F055E /* Code_HistoryApp.swift */,
 				0B87D1E62C2B3872003F055E /* ContentView.swift */,
+				0B4AAA9D2C2F31FC003897D2 /* ChoiceTextView.swift */,
+				0B4AAA992C2F3089003897D2 /* Question.swift */,
 				0B87D1E82C2B3873003F055E /* Assets.xcassets */,
 				0B87D1EA2C2B3873003F055E /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B4AAA9A2C2F3089003897D2 /* Question.swift in Sources */,
 				0B87D1E72C2B3872003F055E /* ContentView.swift in Sources */,
+				0B4AAA9E2C2F31FC003897D2 /* ChoiceTextView.swift in Sources */,
 				0B87D1E52C2B3872003F055E /* Code_HistoryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
