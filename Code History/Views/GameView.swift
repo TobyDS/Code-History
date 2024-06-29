@@ -20,10 +20,10 @@ struct GameView: View {
           .multilineTextAlignment(.leading)
           .padding()
         QuestionView(question: viewModel.currentQuestion)
-          .padding()
       }
     }
     .foregroundColor(.white)
+    .environmentObject(viewModel)
   }
 }
 
