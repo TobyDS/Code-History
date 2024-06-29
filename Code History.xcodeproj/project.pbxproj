@@ -16,6 +16,7 @@
 		0B87D1EC2C2B3873003F055E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B87D1EB2C2B3873003F055E /* Preview Assets.xcassets */; };
 		0BC7D79D2C305E6C00EC7ACF /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7D79C2C305E6C00EC7ACF /* WelcomeView.swift */; };
 		0BC7D79F2C3062A600EC7ACF /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7D79E2C3062A600EC7ACF /* GameColor.swift */; };
+		0BC7D7A12C30684800EC7ACF /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7D7A02C30684800EC7ACF /* BottomTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		0B87D1EB2C2B3873003F055E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0BC7D79C2C305E6C00EC7ACF /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		0BC7D79E2C3062A600EC7ACF /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
+		0BC7D7A02C30684800EC7ACF /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		0B87D1D82C2B3872003F055E = {
 			isa = PBXGroup;
 			children = (
+				0BC7D7A02C30684800EC7ACF /* BottomTextView.swift */,
 				0B87D1E32C2B3872003F055E /* Code History */,
 				0B87D1E22C2B3872003F055E /* Products */,
 			);
@@ -172,6 +175,7 @@
 				0BC7D79D2C305E6C00EC7ACF /* WelcomeView.swift in Sources */,
 				0B4AAAA02C2F9C27003897D2 /* Game.swift in Sources */,
 				0B87D1E72C2B3872003F055E /* GameView.swift in Sources */,
+				0BC7D7A12C30684800EC7ACF /* BottomTextView.swift in Sources */,
 				0BC7D79F2C3062A600EC7ACF /* GameColor.swift in Sources */,
 				0B4AAA9E2C2F31FC003897D2 /* ChoiceTextView.swift in Sources */,
 				0B87D1E52C2B3872003F055E /* Code_HistoryApp.swift in Sources */,
