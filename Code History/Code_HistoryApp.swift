@@ -9,9 +9,9 @@ import SwiftUI
 
 @main
 struct Code_HistoryApp: App {
-    var body: some Scene {
-        WindowGroup {
-            WelcomeView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      WelcomeView()
     }
+  }
 }

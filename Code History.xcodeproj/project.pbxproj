@@ -64,6 +64,7 @@
 				0B87D1E62C2B3872003F055E /* GameView.swift */,
 				0BC7D79C2C305E6C00EC7ACF /* WelcomeView.swift */,
 				0BC7D79E2C3062A600EC7ACF /* GameColor.swift */,
+				0BC7D7A02C30684800EC7ACF /* BottomTextView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -71,7 +72,6 @@
 		0B87D1D82C2B3872003F055E = {
 			isa = PBXGroup;
 			children = (
-				0BC7D7A02C30684800EC7ACF /* BottomTextView.swift */,
 				0B87D1E32C2B3872003F055E /* Code History */,
 				0B87D1E22C2B3872003F055E /* Products */,
 			);
