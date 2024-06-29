@@ -31,7 +31,7 @@ struct GameView: View {
                     .multilineTextAlignment(.leading)
                 Spacer()
                 HStack {
-                    ForEach(0..<question.possibleAnswers.count) { answerIndex in
+                    ForEach(0..<question.possibleAnswers.count, id: \.self) { answerIndex in
                         Button(action: {
                             print(
                                 "Tapped on an option with the text: \(question.possibleAnswers[answerIndex])"
